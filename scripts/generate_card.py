@@ -22,7 +22,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 random.seed()
 
-LOGIN = os.environ.get("GITHUB_LOGIN", "kali")
+LOGIN = os.environ.get("GITHUB_LOGIN", "development-oss-beep")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OUT_PATH = os.environ.get("OUT_PATH", "assets/profile.svg")
 
